@@ -1,3 +1,5 @@
+This repo includes all the code for ACIJ's Monitor Presupuestario. This code lives in https://github.com/acij-ar/monitor-presupuestario/tree/redesign
+
 # [monitorpresupuestario.acij.org.ar](http://monitorpresupuestario.acij.org.ar/)
 
 <!-- TODO: actualizar readme antes de cerrar el rediseño -->
