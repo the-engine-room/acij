@@ -1,8 +1,38 @@
+# ACIJ 
+>Type of project: website
+
+## What is it?
+The Asociación Civil por la Igualdad y Justicia (ACIJ) is a well established civil society organization, recognized nationally and regionally for its work on access to justice and transparency, particularly in fiscal transparency. The organization is active in the open government and civic tech space. 
+
+The organization used to  manually collect and track government data on the budget for years. They used basic tools to analyze the actual spending for their advocacy purposes, ensuring that the budget aligns with the government’s stated priorities and not misused or irresponsibly re-allocated. 
+
+As the government made budget and spending data more available, they built  a “budget-monitor” tool, the Monitor Presupuestario.
+
 This repo includes all the code for ACIJ's Monitor Presupuestario. This code lives in https://github.com/acij-ar/monitor-presupuestario/tree/redesign
 
-# [monitorpresupuestario.acij.org.ar](http://monitorpresupuestario.acij.org.ar/)
+## What does it do?
 
-<!-- TODO: actualizar readme antes de cerrar el rediseño -->
+The platform downloads a daily copy of the data from the government's open data portal. Then transforms the data to use only what we need, makes adjustments to the inflation and turns that into a database that can be consumed by the front-end. 
+The front-end allows you to Explore or Compare the information on the budget. You can search on the different levels of the budget allocation, compare them by year, moment of the budget and get to the programatic level of the budget.
+
+## How do I use it?
+
+You can visit [monitorpresupuestario.acij.org.ar](http://monitorpresupuestario.acij.org.ar/) The tool will give you a quick intro on how to use it. 
+
+## Credits
+
+This was designed and developed by:
+- Nela Díaz
+- Ignacio Heredia
+- Emanuel Zámano
+
+## Why did we build this?
+
+Keeping track of budget for human rights is key in the work of ACIJ. They had initially built a Monitor. They needed to have a better way to navigate and show all the data available, in a way that could allow civil society organisations, researchers and even government, how the changes in the budget could affect certain programs that are key for the poeple in Argentina. 
+ Our work was supporting the redesign for a version 2.0.
+ 
+ ## About the tech
+ Below is the documentation to develop or deploy the Monitor Presupuestario
 
 ## Estructura de carpetas
 
